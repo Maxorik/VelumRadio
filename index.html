@@ -4,51 +4,25 @@
         <meta charset="utf-8">
         <title>Welcome to Velum</title>
         <link rel="stylesheet" href="main.css">
-        <script src="https://www.youtube.com/iframe_api"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src='s.js'></script>
     </head>
     <body>
         <img src='img/ship.png' class='ship'>
         <img src='img/logo3.png' class='logo'>
-        <p>
+        <div>
             <pre class='description'>Пока здесь ничего нет..        
-                    только музыка</pre>
-        </p>
-        <img src='img/play.png' class='play' id='player'>
-    
-        <iframe width="0" height="0" src="https://www.youtube.com/embed/bebuiaSKtU4?controls=0?rel=0&showinfo=0" frameborder="0" allowfullscreen id='ytube'></iframe>
-    
-    
-    <script>
-        let player=document.getElementById('player');
-        let ytube=document.getElementById('ytube');
-        player.addEventListener('click', useplayer, false);
-        
-        function useplayer(event){
-            let target = event.target;
-            let source = 'https://www.youtube.com/embed/bebuiaSKtU4?controls=0?rel=0&showinfo=0';
-            if(target.classList.contains('play')){
-                //let $video = $('#ytube'),
-		        //src = $video.attr('src');
-	            //$video.attr('src', source + '&autoplay=1');
-                ytube.src = source + '&autoplay=1';
-                
-                target.classList.remove('play');
-                target.classList.add('pause');
-                target.src='img/pausa.png';
-            }
-            
-            else if(target.classList.contains('pause')){
-                //let $video = $('#ytube'),
-		        //src = $video.attr('src');
-	            //$video.attr('src', source);
-                ytube.src = source;
-                
-                target.classList.remove('pause');
-                target.classList.add('play');
-                target.src='img/play.png';
-            }
-        }
+        только музыка
+        <div id="radiobells_container"></div></pre>
+        </div>
+    <script type="text/javascript">
+        var rad_backcolor="transparent"; 
+        var rad_logo = "black"; 
+        var rad_autoplay = false; 
+        var rad_width = "responsive"; 
+        var rad_width_px = 0;
+        var rad_stations =[['http://air2.radiorecord.ru:805/chil_320','Record Chill-Out','recordchillout']];
     </script>
+    <script src='radio.js'></script>
+
     </body>
 </html>

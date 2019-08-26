@@ -6,8 +6,6 @@
 	font-style: normal;
 }
 
-
-
 body{
     margin: 0;
     padding: 0;
@@ -32,17 +30,17 @@ body{
 .description{
     margin-top: 10vh;
     margin-left: 10vw;
-    color:#00a7ec;
+    color:#fff;
     font-size: 26px;
     font-family: 'Conv_16905',Sans-Serif;
 }
 
-#player{
-    margin-left: 15vw;
-    opacity: 0.3;
+
+#rad_select_main_image, #rad_dropdown, #rad_stationname, #rad_select_main_image, #rad_logo, #rad_sound_btn{
+    display: none;
 }
 
-#player:hover{
-    cursor: pointer;
-    opacity: 0.8;
+#radiobells_container{
+    margin-top: -2.5em;
+    margin-left: 9.5em;
 }
