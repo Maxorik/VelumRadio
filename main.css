@@ -1,46 +1,532 @@
-@font-face {
-	font-family: 'Conv_16905';
-	src: url('fonts/16905.eot');
-	src: local('☺'), url('fonts/16905.woff') format('woff'), url('fonts/16905.ttf') format('truetype'), url('fonts/16905.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-body{
+﻿body, p{
     margin: 0;
     padding: 0;
-    width:100%;
-    height:100vh;
-    background-image: url(img/fon.png);
 }
 
-.ship{
-    position: absolute;
-    height: 50vh;
-    opacity: 0.3;
-    right:0;
-    bottom: 10vh;
-}
+/*ПРЕВЬЮ*  1% = 20px */
 
-.logo{
-    width:150px;
-    margin:15px;
-}
-
-.description{
-    margin-top: 10vh;
-    margin-left: 10vw;
+.preview_part div{
+    text-align: center;
     color:#fff;
-    font-size: 26px;
-    font-family: 'Conv_16905',Sans-Serif;
+}
+
+.preview_part{
+    background-image:url(img/IMG_3644.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.h_words, .ach_number{
+    font-family: "Conv_parangon_530c";
+    font-size: 39px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+}
+
+.preview_h{
+    margin: 0px 14%;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.preview_words{
+    text-align: center;
+    font-family: 'Conv_PT_Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    margin: 50px 22%;
+}
+
+.ach_number{
+    line-height: 30px;
+    margin-top: 1em;
+}
+
+.ach_word{
+    font-family: 'Conv_PT_Sans';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    word-wrap: normal;
+}
+
+.preview_blocks{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.preview_acheewment{
+    width:12%;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 0.3em;
+    margin-right: 3%;
+    margin-bottom: 6%;
+}
+
+/*Top menu*/
+.top_menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 6%;
+    
+}
+
+.top_menu_part{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color:#000;
+    font-family: 'Futura-Normal';
+    margin: 2%;
+}
+
+.top_menu_part:hover{
+    cursor: pointer;
+    color:#f6ae48;
+}
+
+.top_menu_hr{
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    background-color: #000000;
+    opacity: 0.32;
 }
 
 
-#rad_select_main_image, #rad_dropdown, #rad_stationname, #rad_select_main_image, #rad_logo, #rad_sound_btn{
-    display: none;
+/*Цель студии*/
+
+.purpose_part{
+    display: flex;
+    margin: 0 6%;
+    margin-top: 6%;
+    align-items: center;
+    justify-content: space-between;
+    height: 29%;
 }
 
-#radiobells_container{
-    margin-top: -2.5em;
-    margin-left: 9.5em;
+.studio{
+    color: #000000;
+    font-family: "Helvetica_Neue_Cyr";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-right: 11%;
+}
+
+.gray_absolute{
+    position:absolute;
+    color: #c1c1c1;
+    font-family: Tahoma;
+    font-size: 340px;
+    font-weight: 700;
+    line-height: 30px;
+    z-index: 1;
+    opacity: 0.19;
+    right:22%;
+}
+
+.studio_purpose{
+    z-index: 88;
+    color: #000000;
+    font-family: "arial_mt";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 50%;
+    margin-right: 6%;
+}
+
+/*Бизнес-процесс поддержки*/
+.buisness_process{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5%;
+}
+
+.ekz_process{
+    max-width: 22%;
+    margin-right: 1%;
+}
+
+.ekz_process:hover{
+    color:#fff;
+    background-color: #f6ae48;
+    cursor: pointer;
+}
+
+.svg_rocket{
+    padding: 0 25px;
+    margin-top: 13px;
+}
+
+.h_process{
+    font-family: "Arial-BoldMT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.57px;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    padding: 0 25px;
+}
+
+.descr_process{
+    font-family: "arial_mt";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.57px;
+    letter-spacing: 0.9px;
+    padding: 0 25px;
+}
+
+.descr_price{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.9px;
+    border: 2px solid #fff;
+    margin: 0 25px;
+    max-width: 38%;
+    max-height: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Кредо компании*/
+.creed{
+    margin-top: 12.5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-image: url(img/IMG_3644.jpg);
+    color:#fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.h_creed{
+    text-align: center;
+}
+
+/*SEO*/
+.seo_part{
+    margin: 10% 20%;
+    display: flex;
+}
+
+.h2_text{
+    font-family: "Conv_parangon_530c";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.h2_grayabs{
+    position:absolute;
+    color: #c1c1c1;
+    font-family: Tahoma;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 30px;
+    z-index: 1;
+    opacity: 0.19;
+    text-transform: uppercase;
+    left:17%;
+    margin-top: -0.85em;
+}
+
+.search_img{
+    width:120%;
+}
+
+.h2_descr{
+    font-family: "arial_mt";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    width:68%;
+}
+
+/*Последние проекты*/
+.last_projects{
+    margin-bottom: 10%;
+}
+
+.h2_middle{
+    text-align: center;
+    color: #fff;
+}
+
+.lastpr_h{
+    padding: 2% 0;
+    background-color: #303263;
+    height: 6%;
+}
+
+.h2_middle_gray{
+    position:absolute;
+    color: #c1c1c1;
+    font-family: Tahoma;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 30px;
+    z-index: 1;
+    opacity: 0.19;
+    text-transform: uppercase;
+    margin-top: -0.85em;
+    left:33%;
+}
+
+.img_flex_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img_flex_50 {
+    width: 49.5%; 
+    height: auto; 
+    display: inline-block;
+}
+
+.img_flex_25 {
+    width: 24.5%; 
+    height: auto; 
+    display: inline-block;
+}
+
+.h2_button{
+    text-align: center;
+    color: #fff;
+    font-family: "Conv_parangon_530c";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 2%;
+    background-color: #6a6b8e;
+    border-radius: 20px;
+}
+
+.h2_button:hover{
+    cursor: pointer;
+    color:#f6ae48;
+}
+
+.lastpr_button{
+    padding: 2% 0;
+    background-color: #303263;
+    height: 6%;
+    text-align: center;
+}
+
+/*адаптивность*/
+.adapt_part{
+    display: flex;
+    margin-bottom: 6.5%;
+}
+
+.adapt_text{
+    padding-left: 20%;
+}
+
+.adapt_img{
+    width: 40%; 
+    height: auto; 
+    display: inline-block;
+}
+
+.adapt_descr{
+    width:80%;
+    line-height: 40px;
+}
+
+/*tradein*/
+.tradein{
+    background-image:url(img/fon3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+    margin-bottom: 8%;
+}
+
+.trade_container{
+    color:#fff;
+    display: flex;
+    padding: 0 4.5%;
+    margin-bottom: 2%;
+}
+
+.trade_column_h1{
+    font-family: "Conv_parangon_530c";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.column_trade_text{
+    font-family: "arial_mt";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    width:90%;
+}
+
+.trade_svg{
+    float:left;
+    margin-right: 4%;
+}
+
+.trade_button{
+    color: #ffffff;
+    font-family: "Conv_parangon_530c";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2%;
+    background-color: #f6ae48;
+    border-radius: 20px;
+    margin-bottom: 2.5%;
+}
+
+.trade_button:hover{
+    cursor: pointer;
+}
+
+.careful_img{
+    margin-right: 6%;
+    width:49%;
+}
+
+/*feedback*/
+.feedback{
+    display: flex;
+    align-items: flex-start;
+    background-image:url(img/feedback.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 6% 0;
+    padding-left: 20%;
+    padding-right: 6%;
+}
+
+.feedback_text{
+    color: #fff;
+}
+
+.feedback_form{
+    width:200%;
+}
+
+.table_feedback{
+    overflow:hidden;
+    width:99%;
+    border-spacing: 0px;
+}
+
+.td_transparent{
+    display: block;
+    width:92.5%;
+    color: #ffffff;
+    font-family: "arial_mt";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    border: 3px solid #fff;
+    background: none !important;
+    padding-left: 20px;
+}
+
+.input_mini{
+    width:88% !important;
+}
+
+.td_transparent::placeholder{
+    color: #ffffff;
+}
+
+.input_big{
+    padding-right: 1.5%;
+}
+
+.td_transparent{
+    border-bottom: none;
+}
+
+.feedback_h1{
+    font-family: "Conv_parangon_530c";
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10%;
+}
+
+.input_height{
+    padding-right: 1.5%;
+    padding-bottom: 20%;
+    resize: none;
+    border-bottom: 3px solid #fff;
+}
+
+.feedback_prim{
+    margin-top: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.prim{
+    font-family: "arial_mt";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    margin-left: 1em;
+}
+
+.prim_button{
+    font-family: "Conv_parangon_530c";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    background-color: #f6ae48;
+    border-radius: 20px;
+    padding: 0 2%;
+    margin-right: 1em;
+}
+
+.prim_button:hover{
+    cursor: pointer;
+}
+
+/*footer*/
+.footer{
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: #f6ae48;
 }
