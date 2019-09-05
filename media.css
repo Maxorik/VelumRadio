@@ -1,5 +1,5 @@
 ﻿/*---------PHONES--------------------------------------*/
-@media(max-width:1024px){
+@media(max-width:700px){
 .h_words, .preview_h{
         margin-top: 0;
         padding-top: 10px;
@@ -20,13 +20,13 @@
     }
     
     .ach_number{
-        font-size: 10px;
+        font-size: 11px;
         line-height: 10px;
     }
     
     .ach_word{
-        font-size: 8px;
-        line-height: 12px;
+        font-size: 11px;
+        line-height: 10px;
     }
     
     .preview_part{
@@ -44,7 +44,7 @@
     }
     
     .studio{
-        font-size: 20px;
+        font-size: 24px;
         line-height: 10px;
         padding-right: 5%;
     }
@@ -56,8 +56,8 @@
     }
     
     .studio_purpose{
-        font-size: 11px;
-        line-height: 12px;
+        font-size: 14px;
+        line-height: 16px;
         margin-right: 2%;
         max-width: 80%;
         margin-right: 0;
@@ -77,6 +77,8 @@
         margin-bottom: 6px;
         margin-top: 6px;
         padding: 0 9px;
+        background-color: #f6ae48;
+        color:#fff;
     }
     
     .descr_process{
