@@ -28,7 +28,7 @@
     }
     
     .ach_word{
-        font-size: 20px;
+        font-size: 18px;
         line-height: 10px;
     }
     
@@ -111,8 +111,7 @@
         display: flex;
         justify-content:center;
         align-items:center;
-       flex-direction: column;
-       
+        flex-direction: column;
     }
     
     .h2_text{
@@ -173,13 +172,13 @@
     }
     
     .trade_column_h1{
-        font-size: 18px;
+        font-size: 21px;
         line-height: 20px;
         display:inline-block; 
     }
     
     .column_trade_text{
-        font-size: 16px;
+        font-size: 19px;
         line-height: 11px;
     }
     
@@ -194,11 +193,12 @@
 
     .feedback_h1{
         font-size: 12px;
+        margin-bottom: 1%;
     }
     
     .feedback{
-        padding: 3% 0;
-        padding-left: 10%;
+        padding: 2% 0;
+        padding-left: 5%;
         padding-right: 3%;
     }
     
@@ -233,8 +233,8 @@
     
     .adapt_part{
         margin-bottom: 3%;
-        display: flex;
-        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .last_projects{
@@ -250,14 +250,16 @@
         padding-top: 5%;
     }
     
-    .adapt_img{
+    .adapt_img, .careful_img{
         height: 50%; 
-        float: none;
+        margin: 0 auto;
     }
     
     .adapt_descr{
-        width:90%;
+        width:100%;
         margin: 0;
+        display: block;
+        float: none;
     }
 }
 
