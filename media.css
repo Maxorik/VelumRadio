@@ -218,19 +218,19 @@
     }
     
     .td_transparent{
-        font-size: 20px;
-        line-height: 21px;
+        font-size: 40px;
+        line-height: 80px;
         padding-left: 1%;
         width:95%;
     }
     
     .prim{
-        font-size: 10px;
+        font-size: 16px;
         line-height: 11px;
     }
 
     .prim_button{
-        font-size: 11px;
+        font-size: 16px;
         line-height: 25px;
         margin-left: 10%;
     }
