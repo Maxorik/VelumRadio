@@ -11,7 +11,8 @@
         padding: 2px;
         width:25%;
         display: flex;
-        align-items: baseline;  
+        align-items: center;  
+        justify-content: center;
     }
     
     .preview_words{
@@ -200,6 +201,7 @@
         padding: 2% 0;
         padding-left: 5%;
         padding-right: 3%;
+        flex-direction: column;
     }
     
     .td_transparent{
@@ -265,6 +267,10 @@
     .footer_text{
         font-size: 19px;
         line-height: 20px;
+    }
+    
+    .tradein{
+        background-image:url(img/fon3_mobile.jpg);
     }
 }
 
