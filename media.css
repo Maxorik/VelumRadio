@@ -218,10 +218,10 @@
     }
     
     .td_transparent{
-        font-size: 11px;
-        line-height: 12px;
+        font-size: 20px;
+        line-height: 21px;
         padding-left: 1%;
-        width:45%;
+        width:95%;
     }
     
     .prim{
@@ -236,8 +236,8 @@
     }
     
     .input_mini{
-        width:48.5% !important;
-        margin-left: -55%;
+        width:95% !important;
+        
     }
     
     .input_height{
