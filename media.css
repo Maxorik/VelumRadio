@@ -10,6 +10,10 @@
         margin: 0 auto;
         padding: 2px;
         width:25%;
+        display: flex;
+        align-items: baseline;
+        
+        
     }
     
     .preview_words{
@@ -22,7 +26,6 @@
     .ach_number{
         font-size: 15px;
         line-height: 10px;
-        float: left;
     }
     
     .ach_word{
@@ -57,7 +60,7 @@
     }
     
     .studio_purpose{
-        font-size: 22px;
+        font-size: 24px;
         line-height: 24px;
         margin-right: 2%;
         max-width: 80%;
@@ -121,7 +124,7 @@
         line-height: 24px;
         margin: 5px 0;
         padding: 0;
-        width:99%;
+        width:100%;
     }
     
     .h2_grayabs{
@@ -236,7 +239,22 @@
     .seo_part{
         margin: 5% 20%;
     }
-
+    
+    .adapt_text{
+        padding-left: 2%;
+        display: block;
+        float: none;
+    }
+    
+    .adapt_img{
+        height: auto; 
+        float: none;
+    }
+    
+    .adapt_descr{
+        width:90%;
+        margin: 0;
+    }
 }
 
 
