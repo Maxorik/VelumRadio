@@ -221,6 +221,15 @@
         line-height: 80px;
         padding-left: 1%;
         width:96.5%;
+        border: 3px solid #fff;
+    }
+    
+    .table_feedback{
+        border-spacing: 2px;
+    }
+    
+    .td_transparent:first-child{
+        margin-right: 0;
     }
     
     .prim{
@@ -235,20 +244,12 @@
     }
     
     .input_mini{
-        width:98% !important;
+        width:97.5% !important;
         
     }
     
     .input_height{
         padding-bottom: 5%;
-    }
-    
-    .input_mini:first-child{
-        border-left: none;
-    }
-    
-    .input_mini:last-child{
-        border-left: none;
     }
     
     .adapt_part{
