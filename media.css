@@ -190,11 +190,20 @@
     .trade_button{
         font-size: 16px;
         line-height: 25px;
+        color:#000;
     }
 
     .feedback_h1{
         font-size: 12px;
         margin-bottom: 1%;
+    }
+    
+    .feedback_form{
+        width:99%;
+    }
+    
+    .feedback{
+        background-image:url(img/feedback_mobile.jpg);
     }
     
     .feedback{
@@ -204,11 +213,15 @@
         flex-direction: column;
     }
     
+    .feedback_prim{
+        justify-content: flex-start;
+    }
+    
     .td_transparent{
         font-size: 11px;
         line-height: 12px;
-        padding-left: 20px;
-        width:88%;
+        padding-left: 1%;
+        width:45%;
     }
     
     .prim{
@@ -219,10 +232,16 @@
     .prim_button{
         font-size: 11px;
         line-height: 25px;
+        margin-left: 10%;
     }
     
     .input_mini{
-        width:81% !important;
+        width:48.5% !important;
+        margin-left: -55%;
+    }
+    
+    .input_height{
+        padding-bottom: 5%;
     }
     
     .input_mini:first-child{
