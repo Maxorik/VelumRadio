@@ -75,19 +75,19 @@
     }
     
     .h_process{
-        font-size: 22px;
+        font-size: 20px;
         line-height: 22px;
         margin-bottom: 6px;
         margin-top: 6px;
-        padding: 0 9px;
+        padding: 0 5px;
         background-color: #f6ae48;
         color:#fff;
     }
     
     .descr_process{
-        font-size: 20px;
-        line-height: 21px;
-        padding: 3px 8px;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 3px 5px;
     }
     
     .descr_price{
