@@ -18,8 +18,8 @@
 
 .h_words, .ach_number{
     font-family: "Conv_parangon_530c";
-    /*font-size: 39px;*/
-    font-size: 3vw;
+    font-size: 39px;
+    /*font-size: 3vw;*/
     font-weight: 400;
     letter-spacing: 2.4px;
 }
@@ -33,8 +33,8 @@
 .preview_words{
     text-align: center;
     font-family: 'Conv_PT_Sans';
-    /*font-size: 20px;*/
-    font-size: 1.5vw;
+    font-size: 20px;
+    /*font-size: 1.5vw;*/
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 1.2px;
@@ -48,8 +48,8 @@
 
 .ach_word{
     font-family: 'Conv_PT_Sans';
-    /*font-size: 10px;*/
-    font-size: 1vw;
+    font-size: 10px;
+    /*font-size: 1vw;*/
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.9px;
@@ -80,8 +80,8 @@
 }
 
 .top_menu_part{
-    /*font-size: 28px;*/
-    font-size: 1.6vw;
+    font-size: 23px;
+    /*font-size: 1.6vw;*/
     font-weight: 400;
     letter-spacing: 1.5px;
     color:#000;
@@ -117,8 +117,8 @@
 .studio{
     color: #000000;
     font-family: "Helvetica_Neue_Cyr";
-    /*font-size: 48px;*/
-    font-size: 3.2vw;
+    font-size: 48px;
+    /*font-size: 3.2vw;*/
     font-weight: 700;
     line-height: 30px;
     padding-right: 11%;
@@ -140,8 +140,8 @@
     z-index: 88;
     color: #000000;
     font-family: "arial_mt";
-    /*font-size: 20px;*/
-    font-size: 1.5vw;
+    font-size: 20px;
+    /*font-size: 1.5vw;*/
     font-weight: 400;
     line-height: 30px;
     max-width: 50%;
@@ -173,8 +173,8 @@
 
 .h_process{
     font-family: "Arial-BoldMT";
-    /*font-size: 20px;*/
-    font-size: 1.5vw;
+    font-size: 20px;
+    /*font-size: 1.5vw;*/
     font-weight: 400;
     line-height: 25.57px;
     letter-spacing: 1.2px;
@@ -185,8 +185,8 @@
 
 .descr_process{
     font-family: "arial_mt";
-    /*font-size: 15px;*/
-    font-size: 1.2vw;
+    font-size: 15px;
+    /*font-size: 1.2vw;*/
     font-weight: 400;
     line-height: 25.57px;
     letter-spacing: 0.9px;
@@ -194,8 +194,8 @@
 }
 
 .descr_price{
-    /*font-size: 18px;*/
-    font-size: 1.2vw;
+    font-size: 18px;
+    /*font-size: 1.2vw;*/
     font-weight: 400;
     line-height: 48px;
     letter-spacing: 0.9px;
@@ -232,8 +232,8 @@
 
 .h2_text{
     font-family: "Conv_parangon_530c";
-    /*font-size: 25px;*/
-    font-size: 1.8vw;
+    font-size: 25px;
+    /*font-size: 1.8vw;*/
     font-weight: 400;
     line-height: 61px;
     letter-spacing: 1.8px;
@@ -260,8 +260,8 @@
 
 .h2_descr{
     font-family: "arial_mt";
-    /*font-size: 20px;*/
-    font-size: 1.4vw;
+    font-size: 20px;
+    /*font-size: 1.4vw;*/
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 1.2px;
@@ -288,8 +288,8 @@
     position:absolute;
     color: #c1c1c1;
     font-family: Tahoma;
-    /*font-size: 60px;*/
-    font-size: 4.5vw;
+    font-size: 60px;
+    /*font-size: 4.5vw;*/
     font-weight: 700;
     line-height: 30px;
     z-index: 1;
@@ -320,8 +320,8 @@
     text-align: center;
     color: #fff;
     font-family: "Conv_parangon_530c";
-    /*font-size: 21px;*/
-    font-size: 1.5vw;
+    font-size: 21px;
+    /*font-size: 1.5vw;*/
     font-weight: 400;
     line-height: 61px;
     letter-spacing: 1.8px;
@@ -383,8 +383,8 @@
 
 .trade_column_h1{
     font-family: "Conv_parangon_530c";
-    /*font-size: 22px;*/
-    font-size: 1.6vw;
+    font-size: 22px;
+    /*font-size: 1.6vw;*/
     font-weight: 400;
     line-height: 72px;
     text-transform: uppercase;
@@ -393,8 +393,8 @@
 
 .column_trade_text{
     font-family: "arial_mt";
-    /*font-size: 16px;*/
-    font-size: 1.4vw;
+    font-size: 16px;
+    /*font-size: 1.4vw;*/
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.9px;
@@ -411,8 +411,8 @@
 .trade_button{
     color: #ffffff;
     font-family: "Conv_parangon_530c";
-    /*font-size: 16px;*/
-    font-size: 1.2vw;
+    font-size: 16px;
+    /*font-size: 1.2vw;*/
     font-weight: 400;
     line-height: 45px;
     letter-spacing: 1.2px;
@@ -493,8 +493,8 @@
 
 .feedback_h1{
     font-family: "Conv_parangon_530c";
-    /*font-size: 22px;*/
-    font-size: 1.6vw;
+    font-size: 22px;
+    /*font-size: 1.6vw;*/
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -518,8 +518,8 @@
 
 .prim{
     font-family: "arial_mt";
-    /*font-size: 14px;*/
-    font-size: 1.2vw;
+    font-size: 14px;
+    /*font-size: 1.2vw;*/
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.7px;
@@ -528,8 +528,8 @@
 
 .prim_button{
     font-family: "Conv_parangon_530c";
-    /*font-size: 14px;*/
-    font-size: 1.2vw;
+    font-size: 14px;
+    /*font-size: 1.2vw;*/
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 0.7px;

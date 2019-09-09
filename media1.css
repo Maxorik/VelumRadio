@@ -3,7 +3,7 @@
 .h_words, .preview_h{
         margin-top: 0;
         padding-top: 8px;
-        font-size: 20px;
+        font-size: 19px;
     }
     
     .preview_acheewment{
@@ -15,7 +15,7 @@
     }
     
     .preview_words{
-        font-size: 19px;
+        font-size: 17px;
         line-height: 20px;
         margin: 7px 5px;
         padding: 0;
@@ -59,7 +59,7 @@
     }
     
     .studio_purpose{
-        font-size: 24px;
+        font-size: 28px;
         line-height: 24px;
         margin-right: 2%;
         max-width: 80%;
@@ -381,7 +381,7 @@
     }
     
     .descr_process{
-        font-size: 20px;
+        font-size: 18px;
         line-height: 22px;
         padding: 3px 8px;
     }
