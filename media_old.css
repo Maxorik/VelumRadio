@@ -3,7 +3,7 @@
 .h_words, .preview_h{
         margin-top: 0;
         padding-top: 8px;
-        
+        font-size: 20px;
     }
     
     .preview_acheewment{
@@ -15,20 +15,20 @@
     }
     
     .preview_words{
-        
+        font-size: 19px;
         line-height: 20px;
         margin: 7px 5px;
         padding: 0;
     }
     
     .ach_number{
-        
+        font-size: 20px;
         line-height: 10px;
         margin-top: 2%;
     }
     
     .ach_word{
-        
+        font-size: 18px;
         line-height: 20px;
     }
     
@@ -47,19 +47,19 @@
     }
     
     .studio{
-        
+        font-size: 24px;
         line-height: 10px;
         padding-right: 5%;
     }
     
     .gray_absolute{
-        
+        font-size: 150px;
         line-height: 1px;
         right:10%;
     }
     
     .studio_purpose{
-        
+        font-size: 24px;
         line-height: 24px;
         margin-right: 2%;
         max-width: 80%;
@@ -75,7 +75,7 @@
     }
     
     .h_process{
-        
+        font-size: 22px;
         line-height: 22px;
         margin-bottom: 6px;
         margin-top: 6px;
@@ -85,13 +85,13 @@
     }
     
     .descr_process{
-        
+        font-size: 20px;
         line-height: 21px;
         padding: 3px 8px;
     }
     
     .descr_price{
-
+        font-size: 16px;
         line-height: 10px;
         margin: 0 auto;
         margin-top: 10px;
@@ -117,12 +117,12 @@
     .h2_text{
         margin: 0;
         padding: 0;
-        
+        font-size: 22px;
         line-height: 16px;
     }
     
     .h2_descr{
-        
+        font-size: 22px;
         line-height: 24px;
         margin: 5px 0;
         padding: 0;
@@ -130,7 +130,7 @@
     }
     
     .h2_grayabs{
-        
+        font-size: 50px;
         line-height: 45px;
         margin-top: -5px;
     }
@@ -145,7 +145,7 @@
     }
     
     .h2_middle_gray{
-        
+        font-size: 21px;
         line-height: 30px;
         margin-top: -1em;
         left:0;
@@ -162,7 +162,7 @@
     }
     
     .h2_button{
-        
+        font-size: 16px;
         line-height: 32px;
     }
     
@@ -172,13 +172,13 @@
     }
     
     .trade_column_h1{
-        
+        font-size: 21px;
         line-height: 20px;
         display:inline-block; 
     }
     
     .column_trade_text{
-        
+        font-size: 20px;
         line-height: 22px;
     }
     
@@ -187,13 +187,13 @@
     }
     
     .trade_button{
-        
+        font-size: 16px;
         line-height: 25px;
         color:#000;
     }
 
     .feedback_h1{
-        
+        font-size: 12px;
         margin-bottom: 1%;
     }
     
@@ -217,7 +217,7 @@
     }
     
     .td_transparent{
-        
+        font-size: 40px;
         line-height: 80px;
         padding-left: 1%;
         width:96.5%;
@@ -233,12 +233,12 @@
     }
     
     .prim{
-        
+        font-size: 20px;
         line-height: 22px;
     }
 
     .prim_button{
-        
+        font-size: 20px;
         line-height: 35px;
         margin-left: 10%;
     }
@@ -284,7 +284,7 @@
     }
     
     .footer_text{
-        
+        font-size: 19px;
         line-height: 20px;
     }
     
