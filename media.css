@@ -85,10 +85,10 @@
     }
     
     .descr_process{
-        font-size: 18px;
-        line-height: 20px;
-        padding: 3px 5px;
-        color:aqua;
+        font-size: 19px;
+        line-height: 21px;
+        padding: 3px 3px;
+        color:green;
     }
     
     .descr_price{
@@ -103,8 +103,12 @@
 
     }
     
+    .buisness_process{
+        display: block;
+    }   
+    
     .ekz_process{
-        max-width: 30%;
+        max-width: 90%;
     }
     
    .seo_part{
