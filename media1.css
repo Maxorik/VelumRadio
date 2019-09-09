@@ -291,6 +291,10 @@
     .tradein{
         background-image:url(img/fon3_mobile.jpg);
     }
+    
+    .slider_img{
+        width:75%;
+    }
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -586,6 +590,10 @@
     
     .tradein{
         background-image:url(img/fon3_mobile.jpg);
+    }
+    
+    .slider_img{
+        width:75%;
     }
 }
 
