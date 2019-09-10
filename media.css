@@ -3,7 +3,7 @@
 .h_words, .preview_h{
         margin-top: 0;
         padding-top: 8px;
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .preview_acheewment{
@@ -15,7 +15,7 @@
     }
     
     .preview_words{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 15px;
         margin: 7px 5px;
         padding: 0;
@@ -43,7 +43,7 @@
     }
     
     .top_menu_part{
-        font-size: 16px;
+        font-size: 13px;
     }
     
     .studio{
@@ -229,6 +229,10 @@
     
     .table_feedback{
         border-spacing: 2px;
+    }
+    
+    .input_big, .input_height{
+        width:100%;
     }
     
     .td_transparent:first-child{
