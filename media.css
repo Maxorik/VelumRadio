@@ -3,7 +3,7 @@
 .h_words, .preview_h{
         margin-top: 0;
         padding-top: 8px;
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .preview_acheewment{
@@ -15,8 +15,8 @@
     }
     
     .preview_words{
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 15px;
         margin: 7px 5px;
         padding: 0;
     }
@@ -43,7 +43,7 @@
     }
     
     .top_menu_part{
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .studio{
@@ -59,9 +59,8 @@
     }
     
     .studio_purpose{
-        font-size: 32px;
+        font-size: 34px;
         line-height: 33px;
-        margin-right: 2%;
         max-width: 100%;
         margin-right: 0;
     }
@@ -224,7 +223,7 @@
         font-size: 40px;
         line-height: 80px;
         padding-left: 1%;
-        width:96.5%;
+        /*width:96.5%;*/
         border: 3px solid #fff;
     }
     
@@ -245,11 +244,6 @@
         font-size: 20px;
         line-height: 35px;
         margin-left: 10%;
-    }
-    
-    .input_mini{
-        width:96% !important;
-        
     }
     
     .input_height{
@@ -294,10 +288,6 @@
     
     .tradein{
         background-image:url(img/fon3_mobile.jpg);
-    }
-    
-    .slider_img{
-        width:75%;
     }
 }
 
