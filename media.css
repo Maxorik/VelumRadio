@@ -1,0 +1,298 @@
+﻿/*---------PHONES--------------------------------------*/
+@media(max-width:1000px){
+.h_words, .preview_h{
+        margin-top: 0;
+        padding-top: 8px;
+        font-size: 14px;
+    }
+    
+    .preview_acheewment{
+        margin: 0 auto;
+        width:25%;
+        display: flex;
+        align-items: center;  
+        justify-content: center;
+    }
+    
+    .preview_words{
+        font-size: 12px;
+        line-height: 15px;
+        margin: 7px 5px;
+        padding: 0;
+    }
+    
+    .ach_number{
+        font-size: 20px;
+        line-height: 10px;
+        margin-top: 2%;
+    }
+    
+    .ach_word{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .preview_part{
+        padding-bottom: 5px;
+    }
+    
+    .top_menu{
+        margin: 0;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+    .top_menu_part{
+        font-size: 13px;
+    }
+    
+    .studio{
+        font-size: 28px;
+        line-height: 10px;
+        padding-right: 5%;
+    }
+    
+    .gray_absolute{
+        font-size: 150px;
+        line-height: 1px;
+        right:10%;
+    }
+    
+    .studio_purpose{
+        font-size: 34px;
+        line-height: 33px;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    
+    .svg_rocket{
+        padding: 0 5px;
+        margin-top: 5px;
+    }
+    .svg_rocket img{
+        display: none;
+    }
+    
+    .h_process{
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 6px;
+        margin-top: 6px;
+        padding: 0;
+        padding-left: 1%;
+        background-color: #f6ae48;
+        color:#fff;
+    }
+    
+    .descr_process{
+        font-size: 19px;
+        line-height: 21px;
+        padding: 6px 6px;
+    }
+    
+    .descr_price{
+        font-size: 18px;
+        line-height: 10px;
+        margin: 10px auto;
+        max-width: 38%;
+        max-height: 10%;
+        padding: 5px;
+        text-align: center;
+
+    }
+    
+    .buisness_process{
+        display: block;
+    }   
+    
+    .ekz_process{
+        max-width: 100%;
+    }
+    
+   .seo_part{
+        margin: 5% 10%;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+    }
+    
+    .h2_text{
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+        line-height: 23px;
+    }
+    
+    .h2_descr{
+        font-size: 20px;
+        line-height: 22px;
+        margin: 5px 0;
+        padding: 0;
+        width:100%;
+    }
+    
+    .h2_grayabs{
+        font-size: 50px;
+        line-height: 45px;
+        margin-top: -5px;
+    }
+    
+    .seo_img{
+        text-align: center;
+    }
+    
+    .search_img{
+        width: 20%;
+        height: auto;
+    }
+    
+    .h2_middle_gray{
+        font-size: 21px;
+        line-height: 30px;
+        margin-top: -1em;
+        left:0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .img_flex_50 {
+        width: 49%; 
+    }
+
+    .img_flex_25 {
+        width: 24%; 
+    }
+    
+    .h2_button{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    
+    .trade_svg{
+        max-width: 20px;
+        display:none; 
+    }
+    
+    .trade_column_h1{
+        font-size: 21px;
+        line-height: 20px;
+        display:inline-block; 
+    }
+    
+    .column_trade_text{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .tradein{
+        padding-top: 5px;
+    }
+    
+    .trade_button{
+        font-size: 16px;
+        line-height: 25px;
+        color:#000;
+    }
+
+    .feedback_h1{
+        font-size: 12px;
+        margin-bottom: 1%;
+    }
+    
+    .feedback_form{
+        width:99%;
+    }
+    
+    .feedback{
+        background-image:url(img/feedback_mobile.jpg);
+    }
+    
+    .feedback{
+        padding: 2% 0;
+        padding-left: 5%;
+        padding-right: 3%;
+        flex-direction: column;
+    }
+    
+    .feedback_prim{
+        justify-content: flex-start;
+    }
+    
+    .td_transparent{
+        font-size: 40px;
+        line-height: 80px;
+        padding-left: 1%;
+        /*width:96.5%;*/
+        border: 3px solid #fff;
+    }
+    
+    .table_feedback{
+        border-spacing: 2px;
+    }
+    
+    .input_big, .input_height{
+        width:97%;
+    }
+    
+    .td_transparent:first-child{
+        margin-right: 0;
+    }
+    
+    .prim{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .prim_button{
+        font-size: 20px;
+        line-height: 35px;
+        margin-left: 10%;
+    }
+    
+    .input_height{
+        padding-bottom: 5%;
+    }
+    
+    .adapt_part{
+        margin-bottom: 3%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .last_projects{
+        margin-bottom: 2%;
+    }
+    
+    .seo_part{
+        margin: 5% 20%;
+    }
+    
+    .adapt_text{
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    
+    .adapt_img, .careful_img{
+        height: 50%; 
+        margin: 0 auto;
+    }
+    
+    .adapt_descr{
+        width:100%;
+        margin: 0;
+        display: block;
+        float: none;
+    }
+    
+    .footer_text{
+        font-size: 19px;
+        line-height: 20px;
+    }
+    
+    .tradein{
+        background-image:url(img/fon3_mobile.jpg);
+    }
+}
+
+
