@@ -4,25 +4,36 @@
         <meta charset="utf-8">
         <title>Welcome to Velum</title>
         <link rel="stylesheet" href="main.css">
-        <script src='s.js'></script>
     </head>
     <body>
-        <img src='img/ship.png' class='ship'>
-        <img src='img/logo3.png' class='logo'>
-        <div>
-            <pre class='description'>Пока здесь ничего нет..        
-        только музыка
-        <div id="radiobells_container"></div></pre>
+        <div class="main">
+            <img src='img/ship.png' class='ship'>
+            <img src='img/logo3.png' class='logo'>
+            <div>
+                <pre class='description'>Пока здесь ничего нет..        
+            только музыка
+            <div id="radiobells_container"></div></pre>
+            </div>
         </div>
     <script type="text/javascript">
-        var rad_backcolor="transparent"; 
-        var rad_logo = "black"; 
-        var rad_autoplay = false; 
-        var rad_width = "responsive"; 
-        var rad_width_px = 0;
-        var rad_stations =[['http://air2.radiorecord.ru:805/chil_320','Record Chill-Out','recordchillout']];
+        const rad_backcolor="transparent", 
+              rad_logo = "black", 
+              rad_autoplay = false, 
+              rad_width = "responsive", 
+              rad_width_px = 0,
+              rad_stations =[['http://air2.radiorecord.ru:805/chil_320','Record Chill-Out','recordchillout']],
+              body = document.querySelector('.main');
+             
+        let image = 1;
+        
+        let slider = setTimeout(function change_image(){
+            image = image > 3 ? 1 : image + 1;
+            body.style.backgroundImage = "url('img/lofi (" + image + ").jpg')";
+            slider = setTimeout(change_image, 5000); 
+        },5000)
+        
+        
     </script>
     <script src='radio.js'></script>
-
     </body>
 </html>

@@ -43,7 +43,7 @@ if (rad_logo=='black'){
 }
 
 	
-var block_play = '<div id="rad_block_play"><img src="'+g_playimg+'" id="rad_play_btn" onclick="rad_playstop(); return false;" align="absmiddle"></div>';
+var block_play = '<div id="rad_block_play" style="cursor: pointer; width: 20px"><img src="'+g_playimg+'" id="rad_play_btn" onclick="rad_playstop(); return false;" align="absmiddle"></div>';
 	
 if (rad_stations[0][2]!=undefined){
 	var img = rad_stations[0][2];
