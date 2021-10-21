@@ -232,6 +232,6 @@ function volumemove(event){
 
 
 let player = document.getElementById('radiobells_container');
-let music = document.getElementByClassName('description')[0];
+let music = document.getElementsByClassName('description')[0];
 music.appendChild(player);
 //player.style.display='none';
