@@ -1,4 +1,4 @@
-@media (hover: none) {
+@media (max-width: 768px) {
     audio {
         display: none;
     }
