@@ -1,53 +1,41 @@
-@font-face {
-	font-family: 'Conv_16905';
-	src: url('fonts/16905.eot');
-	src: local('☺'), url('fonts/16905.woff') format('woff'), url('fonts/16905.ttf') format('truetype'), url('fonts/16905.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width:100%;
-    height:100vh;
-}
-
-.main {
-    background-image: url('img/fon2021.jpg');
-    background-size: cover;
     width: 100vw;
     height: 100vh;
-    transition: background-image 1s;
+    display: flex;
+    align-items: center;
 }
 
-.ship {
-    position: absolute;
-    height: 50vh;
-    opacity: 0.3;
-    right:0;
-    bottom: 10vh;
+.main-container {
+    height: 280px;
+    width: 400px;
+    margin: 0 auto;
+    background-image: url("img/empty_back.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 80px 0 0 20px;
 }
 
-.logo {
-    width:150px;
-    margin:15px;
+.radio-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 10px 0;
+    background: rgb(255, 255, 255, 0.7);
 }
 
-.description {
-    margin-top: 10vh;
-    margin-left: 10vw;
-    color:#fff;
-    font-size: 26px;
-    font-family: 'Conv_16905',Sans-Serif;
+.radio-station {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-
-#rad_select_main_image, #rad_dropdown, #rad_stationname, #rad_select_main_image, #rad_logo, #rad_sound_btn, #rad_block_logo {
-    display: none;
-}
-
-#radiobells_container {
-    margin-top: -2.5em;
-    margin-left: 10.5em;
+.radio-station-label {
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
 }
