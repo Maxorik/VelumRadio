@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 400px) {
+@media handheld {
     audio {
         display: none;
     }
