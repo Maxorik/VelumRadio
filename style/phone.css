@@ -1,0 +1,42 @@
+@media only screen and (max-device-width: 1000px) {
+    audio {
+        display: none;
+    }
+
+    .main-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center center;
+        background-size: 100% auto;
+        padding: 0;
+    }
+
+    .radio-list {
+        padding: 30px 30px 10px 30px;
+        display: flex;
+        background: rgb(255, 255, 255, 0.9);
+    }
+
+    .mobile-control,
+    .radio-station-text {
+        display: inline-block !important;
+    }
+
+    .radio-station {
+        justify-content: space-between;
+    }
+
+    .radio-station-text {
+        font-size: 100px;
+        font-weight: bolder;
+        font-variant : small-caps;
+    }
+
+    /* компоненты для десктопной версии */
+    .radio-station-label {
+        display: none;
+    }
+}

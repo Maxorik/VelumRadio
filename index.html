@@ -3,20 +3,31 @@
     <head>
         <meta charset="utf-8">
         <title>Welcome to Velum</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="phone.css">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/phone.css">
+        <link rel="stylesheet" href="style/buttons.css">
     </head>
     <body>
         <div class="main-container">
             <div class="radio-list">
                 <div class="radio-station">
                     <img src="img/phonk.png" alt="phonk" class="radio-station-label">
+                    <p class="radio-station-text">phonk</p>
+                    <div class="mobile-control play">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                    </div>
                     <audio controls id="audio-player-phonk" class="audio-player-control">
                         <source src="https://stream.pcradio.ru/rcrdphnk-med" type="audio/aac">
                     </audio>
                 </div>
                 <div class="radio-station">
                     <img src="img/lofi.png" alt="lofi" class="radio-station-label">
+                    <p class="radio-station-text">lofi</p>
+                    <div class="mobile-control play">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                    </div>
                     <audio controls id="audio-player-lofi" class="audio-player-control">
                         <source src="https://str1.pcradio.ru/rad_lfrdru-med" type="audio/aac">
                     </audio>

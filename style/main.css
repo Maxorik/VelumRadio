@@ -8,22 +8,24 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    background: rgb(75, 75, 75, 0.2);
 }
 
 .main-container {
     height: 280px;
     width: 400px;
     margin: 0 auto;
-    background-image: url("img/empty_back.png");
+    transition: background 0.4s ease;
+    background-image: url("../img/empty_back.png");
     background-repeat: no-repeat;
     background-position: top center;
-    padding: 80px 0 0 20px;
+    padding: 80px 0 0 0;
 }
 
 .radio-list {
     display: flex;
     flex-direction: column;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 10px 10px;
     background: rgb(255, 255, 255, 0.7);
 }
 
@@ -38,4 +40,10 @@ body {
     height: 30px;
     margin-right: 5px;
     cursor: pointer;
+}
+
+/* компоненты для мобильной версии */
+.mobile-control,
+.radio-station-text {
+    display: none !important;
 }
