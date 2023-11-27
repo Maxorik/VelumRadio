@@ -10,28 +10,16 @@
     <body>
         <div class="main-container">
             <div class="radio-list">
-                <div class="radio-station">
-                    <img src="img/phonk.png" alt="phonk" class="radio-station-label">
-                    <p class="radio-station-text">phonk</p>
-                    <div class="mobile-control play">
-                        <span class="left"></span>
-                        <span class="right"></span>
-                    </div>
-                    <audio controls id="audio-player-phonk" class="audio-player-control">
-                        <source src="https://stream.pcradio.ru/rcrdphnk-med" type="audio/aac">
-                    </audio>
+                <div id="lofi-player-yt"></div>
+                <div class="controller-container">
+                    <button id="start-btn" class="player-btn">START</button>
+                    <button id="stop-btn" class="player-btn">STOP</button>
                 </div>
-                <div class="radio-station">
-                    <img src="img/lofi.png" alt="lofi" class="radio-station-label">
-                    <p class="radio-station-text">lofi</p>
-                    <div class="mobile-control play">
-                        <span class="left"></span>
-                        <span class="right"></span>
-                    </div>
-                    <audio controls id="audio-player-lofi" class="audio-player-control">
-                        <source src="https://str1.pcradio.ru/rad_lfrdru-med" type="audio/aac">
-                    </audio>
-                </div>
+
+                <iframe width="900" height="400" src="https://www.youtube.com/embed/Ss8WWS7I0Lo?si=Fv92xCQAIA1szL2R&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="900" height="400" src="https://www.youtube.com/embed/jfKfPfyJRdk?si=74L6usbi3clngfUM&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="900" height="400" src="https://www.youtube.com/embed/xMd64BGSBcE?si=BwbSVuDoLBmsQ97N&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
             </div>
         </div>
     </body>

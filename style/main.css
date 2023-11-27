@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: rgb(75, 75, 75, 0.2);
+    background-image: url('../img/back.png');
 }
 
 .main-container {
@@ -26,13 +26,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 0 10px 10px;
-    background: rgb(255, 255, 255, 0.7);
 }
 
 .radio-station {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 8px;
 }
 
 .radio-station-label {

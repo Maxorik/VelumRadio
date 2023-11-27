@@ -17,7 +17,7 @@
     .radio-list {
         padding: 30px 30px 10px 30px;
         display: flex;
-        background: rgb(255, 255, 255, 0.9);
+        /*background: rgb(255, 255, 255, 0.9);*/
     }
 
     .mobile-control,
@@ -38,5 +38,20 @@
     /* компоненты для десктопной версии */
     .radio-station-label {
         display: none;
+    }
+
+    /*///////////////////////////////////////////////////////////////*/
+    .player-btn {
+        width: 220px;
+        height: 120px;
+        background-color: blueviolet;
+        color: beige;
+        font-size: 44px;
+        margin: 10px;
+    }
+
+    .controller-container {
+        display: flex;
+        margin: 10px;
     }
 }
