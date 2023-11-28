@@ -9,17 +9,25 @@
     </head>
     <body>
         <div class="main-container">
-            <div class="radio-list">
-                <div id="lofi-player-yt"></div>
-                <div class="controller-container">
-                    <button id="start-btn" class="player-btn">START</button>
-                    <button id="stop-btn" class="player-btn">STOP</button>
+            <img src="img/fzr.gif" class="player-bi pc" />
+            <img src="img/iwr.gif" class="player-bi mobile" />
+            <div class="player-overlay"></div>
+            <div class="player-content">
+                <div class="player-title pretty-font">Welcome to Velum</div>
+                <div class="radio-list">
+                    <div class="radio-station">
+                        <div class="station-container">
+                            <div class="mobile-control play mobile pretty-shadow">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </div>
+                            <audio controls id="audio-player-lofi" class="audio-player-control none">
+                                <source src="https://stream.chillhop.com/mp3/65379" type="audio/aac">
+                            </audio>
+                            <p class="radio-station-text pc pretty-font"></p>
+                        </div>
+                    </div>
                 </div>
-
-                <iframe width="900" height="400" src="https://www.youtube.com/embed/Ss8WWS7I0Lo?si=Fv92xCQAIA1szL2R&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="900" height="400" src="https://www.youtube.com/embed/jfKfPfyJRdk?si=74L6usbi3clngfUM&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="900" height="400" src="https://www.youtube.com/embed/xMd64BGSBcE?si=BwbSVuDoLBmsQ97N&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
             </div>
         </div>
     </body>

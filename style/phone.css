@@ -1,6 +1,10 @@
 @media only screen and (max-device-width: 1000px) {
-    audio {
+    .pc {
         display: none;
+    }
+
+    .mobile {
+        display: block;
     }
 
     .main-container {
@@ -17,7 +21,6 @@
     .radio-list {
         padding: 30px 30px 10px 30px;
         display: flex;
-        /*background: rgb(255, 255, 255, 0.9);*/
     }
 
     .mobile-control,
@@ -33,25 +36,5 @@
         font-size: 100px;
         font-weight: bolder;
         font-variant : small-caps;
-    }
-
-    /* компоненты для десктопной версии */
-    .radio-station-label {
-        display: none;
-    }
-
-    /*///////////////////////////////////////////////////////////////*/
-    .player-btn {
-        width: 220px;
-        height: 120px;
-        background-color: blueviolet;
-        color: beige;
-        font-size: 44px;
-        margin: 10px;
-    }
-
-    .controller-container {
-        display: flex;
-        margin: 10px;
     }
 }
