@@ -39,11 +39,20 @@
     left: 0;
 }
 
-.player-title {
-    width: 100%;
-    font-size: 5em;
-    text-align: center;
-    margin-top: 1em;
+.clock {
+    width: auto;
+    font-size: 60px;
+    text-align: right;
+    margin: 90vh 40px 0 0;
+}
+
+.tik {
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.tak {
+    opacity: 0.3;
 }
 
 .pretty-font {
@@ -75,8 +84,11 @@
 }
 
 .station-container {
+    position: absolute;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    top: 10vh;
+    left: calc(5vw);
 }

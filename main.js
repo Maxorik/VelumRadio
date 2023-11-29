@@ -2,6 +2,20 @@ const audio = document.querySelectorAll('.audio-player-control');
 const playerControls = Array.apply(null, audio);
 const radioStationLabels = document.querySelectorAll('.radio-station-label');
 const mobileControls = document.querySelectorAll('.mobile-control');
+const clock = document.getElementById('clock');
+
+const setTime = () => {
+    const today = new Date();
+    clock.firstElementChild.innerHTML = today.getHours().toString();
+    clock.lastElementChild.innerHTML = ('0'+today.getMinutes()).slice(-2);
+    document.querySelector('.tik').classList.toggle('tak');
+}
+
+setTime();
+
+setInterval(() => {
+    setTime();
+}, 1000);
 
 // одновременно может играть только один плеер
 playerControls.forEach(control => {

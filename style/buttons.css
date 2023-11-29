@@ -55,11 +55,6 @@
 }
 .mobile-control:hover {
     border-color: rgba(255, 255, 255, 0.96);
-    width: 118px;
-    height: 118px;
-    border-radius: 100%;
-    margin: 20px;
-    padding: 34px;
 }
 .mobile-control:hover .left,
 .mobile-control:hover .right {

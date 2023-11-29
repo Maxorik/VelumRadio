@@ -37,4 +37,21 @@
         font-weight: bolder;
         font-variant : small-caps;
     }
+
+    .station-container {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 85vh;
+        left: calc(50vw - 115px);
+    }
+
+    .clock {
+        width: 100%;
+        font-size: 10em;
+        text-align: center;
+        margin-top: 1em;
+    }
 }
