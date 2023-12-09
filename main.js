@@ -3,21 +3,38 @@ const playerControls = Array.apply(null, audio);
 const radioStationLabels = document.querySelectorAll('.radio-station-label');
 const mobileControls = document.querySelectorAll('.mobile-control');
 const clock = document.getElementById('clock');
+const weather = document.getElementById('weather');
 
-const setTime = () => {
-    const today = new Date();
-    clock.firstElementChild.innerHTML = today.getHours().toString();
-    clock.lastElementChild.innerHTML = ('0'+today.getMinutes()).slice(-2);
-    document.querySelector('.tik').classList.toggle('tak');
+const api = {
+    url: 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Tomsk?unitGroup=metric&key=',
+    key: 'G5KAYAXC9K8M495ZGGRSJMXT3'
 }
 
-setTime();
+/** Живой таймер-часы */
+const setTime = () => {
+    const today = new Date();
+    clock.firstElementChild.innerHTML = ('0'+today.getHours()).slice(-2);
+    clock.lastElementChild.innerHTML = ('0'+today.getMinutes()).slice(-2);
+    document.querySelector('.tik').classList.toggle('tak');
+    setTimeout(setTime, 1000);
+}
 
-setInterval(() => {
-    setTime();
-}, 1000);
+/** Уменьшаем стандартную громкость */
+audio.forEach(player => player.volume = 0.5)
 
-// одновременно может играть только один плеер
+/** Тянем погоду */
+const getWeather = () => {
+    const url = api.url + api.key + '&contentType=json';
+    fetch(url)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            weather.innerHTML = data.days[0].temp + '°';
+        });
+}
+
+/** Одновременно может играть только один плеер */
 playerControls.forEach(control => {
     control.addEventListener('play', e => {
         const playerId = e.target.id;
@@ -29,7 +46,7 @@ playerControls.forEach(control => {
     })
 })
 
-// лейбл плеера получает возможности play\pause
+/** Лейбл плеера получает возможности play\pause */
 radioStationLabels.forEach(label => {
     label.addEventListener('click', e => {
         let playerController = e.target.parentElement.lastElementChild;
@@ -37,14 +54,11 @@ radioStationLabels.forEach(label => {
     })
 })
 
-// кнопки управления плеером для мобильнйо версии TODO вынести в js для смартфонов
+/** Кнопки управления плеером для мобильнйо версии */
 mobileControls.forEach(control => {
     control.addEventListener('click', e => {
         const button = e.currentTarget;
         const playerAudioController = button.nextElementSibling;
-
-        console.log(button)
-
         playerAudioController.paused ? playerAudioController.play() : playerAudioController.pause();
 
         // меняем у текущего
@@ -59,3 +73,8 @@ mobileControls.forEach(control => {
         })
     })
 })
+
+
+/** Старт */
+setTime();
+getWeather();

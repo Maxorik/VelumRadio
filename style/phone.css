@@ -44,14 +44,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 85vh;
         left: calc(50vw - 115px);
+        bottom: 6vh;
     }
 
     .clock {
         width: 100%;
         font-size: 10em;
         text-align: center;
-        margin-top: 1em;
+        margin-top: 1.5em;
+    }
+
+    .weather-container {
+        font-size: 5em;
     }
 }

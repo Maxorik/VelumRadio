@@ -43,7 +43,7 @@
     width: auto;
     font-size: 60px;
     text-align: right;
-    margin: 90vh 40px 0 0;
+    margin: 80vh 40px 0 0;
 }
 
 .tik {
@@ -86,9 +86,13 @@
 .station-container {
     position: absolute;
     z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 10vh;
     left: calc(5vw);
+}
+
+.weather-container {
+    width: auto;
+    font-size: 50px;
+    text-align: right;
+    margin-right: 10px;
+    height: 60px;
 }

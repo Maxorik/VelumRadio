@@ -1,3 +1,3 @@
-#Lofi & Phonk radio
+#Lofi radio
 
 ## https://maxorik.github.io/VelumRadio/
