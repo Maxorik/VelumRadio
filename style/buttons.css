@@ -61,9 +61,16 @@
     border-left-color: rgba(255, 255, 255, 0.96);
 }
 
-.pretty-shadow {
+.pretty-shadow-red {
     box-shadow: 0 0 1px hsl(0, 36%, 87%),
     0 0 16px hsla(0, 100%, 52%, 0.6),
     0 0 30px hsl(312, 62%, 46%),
     0 0 60px #5e0202;
+}
+
+.pretty-shadow-orange {
+    box-shadow: 0 0 1px hsl(0, 36%, 87%),
+    0 0 16px hsl(29, 100%, 49%),
+    0 0 30px hsl(31, 100%, 63%),
+    0 0 60px #772602;
 }

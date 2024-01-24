@@ -58,4 +58,9 @@
     .weather-container {
         font-size: 5em;
     }
+
+    .player-bi {
+        object-fit: contain;
+        background: #0f0e1e;
+    }
 }

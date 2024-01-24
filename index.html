@@ -6,25 +6,26 @@
         <link rel="stylesheet" href="style/main.css">
         <link rel="stylesheet" href="style/phone.css">
         <link rel="stylesheet" href="style/buttons.css">
+        <link rel="shortcut icon" href="./img/lofi_app_icon.png">
     </head>
     <body>
         <div class="main-container">
             <img src="img/fzr.gif" class="player-bi pc" />
-            <img src="img/iwr.gif" class="player-bi mobile" />
+            <img src="img/mdw.gif" class="player-bi mobile" />
             <div class="player-overlay"></div>
             <div class="player-content">
-                <div class="weather-container pretty-font" id="weather"></div>
-                <div class="clock pretty-font" id="clock"><span></span><span class="tik">:</span><span></span></div>
+                <div class="weather-container pretty-font-orange" id="weather"></div>
+                <div class="clock pretty-font-orange" id="clock"><span></span><span class="tik">:</span><span></span></div>
             </div>
             <div class="station-container">
-                <div class="mobile-control play mobile pretty-shadow">
+                <div class="mobile-control play mobile pretty-shadow-orange">
                     <span class="left"></span>
                     <span class="right"></span>
                 </div>
                 <audio controls id="audio-player-lofi" class="audio-player-control none">
                     <source src="https://live.lofiradio.ru/lofi_mp3_320?fb9e" type="audio/aac">
                 </audio>
-                <p class="radio-station-text pc pretty-font"></p>
+                <p class="radio-station-text pc pretty-font-orange"></p>
             </div>
         </div>
     </body>
